@@ -10,6 +10,7 @@ export default function RTE({name, control, label, defaultValue =""}) {
 
     <Controller
     name={name || "content"}
+    apiKey='zu2ma1eoej2sa937zy5fjgtcjurpkhh98enu066trryhut1t'
     control={control}
     render={({field: {onChange}}) => (
         <Editor
